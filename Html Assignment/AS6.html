@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Deep Learning Basics</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h1, h2 {
+            color: #333;
+        }
+        ul {
+            list-style-type: square;
+            padding-left: 20px;
+        }
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>Deep Learning Architecture</h1>
+
+    <img src="Architecture.jpg"  alt="Deep Learning Architecture" style="height:400px ; width:500px">
+    <p>Fig.1 Deep Learning Architecture</p>
+
+    <p>The architecture of a deep learning model typically refers to its overall structure and organization of layers. While there are various architectures designed for different tasks, I'll outline a generic architecture often used in tasks like image classification.</p>
+     
+    <h2>Input Layer:</h2>
+    <p>This is where the raw input data is fed into the model. In the case of image data, each pixel value may serve as an input node.</p>
+
+   
+    <h2>Hidden Layers:</h2>
+    <p>These layers form the core of the deep learning model. They consist of multiple units (neurons) organized into one or more layers. Each neuron typically computes a weighted sum of its inputs and passes the result through an activation function, such as ReLU, sigmoid, or tanh. The number of hidden layers and neurons per layer can vary depending on the complexity of the task and the size of the dataset.</p>
+
+    <h2>Output Layer:</h2>
+    <p>This layer produces the final output of the model. The number of neurons in the output layer depends on the nature of the task. For example, in binary classification, there may be a single neuron representing the probability of one class, while in multi-class classification, there will be multiple neurons, each corresponding to a different class</p>
+
+    <h2>Activation Functions:</h2>
+    <p>Non-linear activation functions are applied after each hidden layer to introduce non-linearity into the model, allowing it to learn complex patterns and relationships in the data. Common activation functions include ReLU, sigmoid, tanh, and softmax (for multi-class classification).</p>
+
+    <h2>Loss Function:</h2>
+    <p>The loss function measures the difference between the model's predictions and the true labels. It quantifies how well the model is performing on the task at hand. For classification tasks, common loss functions include categorical cross-entropy for multi-class classification and binary cross-entropy for binary classification.</p>
+
+    <h2>Deep Learning Applications</h2>
+    <ul>
+        <li>Image Recognition</li>
+        <li>Natural Language Processing</li>
+        <li>Speech Recognition</li>
+        <li>Generative Models (e.g., GANs)</li>
+        <li>Recommendation Systems</li>
+        <li>Healthcare Diagnostics</li>
+    </ul>
+</body>
+</html>
